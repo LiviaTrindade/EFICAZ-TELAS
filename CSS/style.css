@@ -9,6 +9,7 @@
 
 body {
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 header {
@@ -82,4 +83,20 @@ header {
     font-size: 5em;
     color: #1b283a;
     text-shadow: 2px 4px 5px #f9f9f9;
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.parallax img#gate-left {
+    transform: translateX(-282px);
+}
+
+.parallax img#gate-right {
+    transform: translateX(305px);
 }
