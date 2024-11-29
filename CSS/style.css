@@ -72,4 +72,8 @@ header {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: url('background.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
