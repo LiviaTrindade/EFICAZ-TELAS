@@ -1,2 +1,2 @@
-# EFICAZ-TELAS
-Telas do trabalho da Eficaz
+# LOGIN-REGISTER
+Telas de login e registro
