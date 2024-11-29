@@ -94,10 +94,12 @@ header {
 }
 
 .parallax img#gate-left {
+    position: fixed;
     transform: translateX(-282px);
 }
 
 .parallax img#gate-right {
+    position: fixed;
     transform: translateX(305px);
 }
 
