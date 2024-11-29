@@ -29,3 +29,17 @@ header {
     color: #fff;
     user-select: none;
 }
+
+.navigation a {
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 6px 15px;
+    transition: .5s;
+}
+
+.navigation a:hover {
+    color: #333;
+}
