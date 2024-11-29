@@ -41,7 +41,8 @@ header {
     transition: .5s;
 }
 
-.navigation a:hover {
+.navigation a:hover,
+.navigation a.active {
     color: #333;
 }
 
@@ -59,7 +60,8 @@ header {
     transform: .5s;
 }
 
-.navigation a:hover span {
+.navigation a:hover span,
+.navigation a.active span {
     transform: scale(1);
     opacity: 1;
 }
